@@ -16,6 +16,8 @@ class LocationDetailViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     
     var weatherDetail: WeatherDetail!
+    //var weatherLocation: WeatherLocation!
+    
     var locationIndex = 0
     
     override func viewDidLoad() {
@@ -37,7 +39,7 @@ class LocationDetailViewController: UIViewController {
         weatherDetail.getData {
             DispatchQueue.main.async {
                 self.dateLabel.text = self.weatherDetail.timezone
-                self.placeLabel.text = self.weatherLocation.name
+                //self.placeLabel.text = self.weatherLocation.name
                 self.temperatureLabel.text = "\(self.weatherDetail.temperature)"
                 self.summaryLabel.text = self.weatherDetail.summary
             }
@@ -47,6 +49,7 @@ class LocationDetailViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let pageViewController = UIApplication.shared.windows.first!.rootViewController as! PageViewController
+        let destination = segue.destination as! LocationListViewController
         destination.weatherLocations = pageViewController.weatherLocations
     }
     

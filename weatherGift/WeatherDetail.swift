@@ -70,7 +70,7 @@ func getData(completed: @escaping () -> ()) {
         }
         completed()
     }
-    task.resume
+    task.resume()
 }
 }
 
