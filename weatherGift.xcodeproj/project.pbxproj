@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5303DC3C2723248100470B9B /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303DC3B2723248100470B9B /* DailyTableViewCell.swift */; };
 		53171F222710EF4600E6E186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53171F212710EF4600E6E186 /* AppDelegate.swift */; };
 		53171F242710EF4600E6E186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53171F232710EF4600E6E186 /* SceneDelegate.swift */; };
 		53171F262710EF4600E6E186 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53171F252710EF4600E6E186 /* LocationListViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5303DC3B2723248100470B9B /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		53171F1E2710EF4600E6E186 /* weatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53171F212710EF4600E6E186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53171F232710EF4600E6E186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				539FD0562715D58B0032D4C3 /* WeatherDetail.swift */,
 				5352F11327139194004E5FAB /* PageViewController.swift */,
 				5352F11127136DE5004E5FAB /* LocationDetailViewController.swift */,
+				5303DC3B2723248100470B9B /* DailyTableViewCell.swift */,
 				53171F252710EF4600E6E186 /* LocationListViewController.swift */,
 				53171F272710EF4600E6E186 /* Main.storyboard */,
 				53171F2A2710EF4800E6E186 /* Assets.xcassets */,
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5303DC3C2723248100470B9B /* DailyTableViewCell.swift in Sources */,
 				53171F262710EF4600E6E186 /* LocationListViewController.swift in Sources */,
 				539FD0572715D58B0032D4C3 /* WeatherDetail.swift in Sources */,
 				5352F11427139194004E5FAB /* PageViewController.swift in Sources */,
